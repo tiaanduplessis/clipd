@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Puny copy to clipboard library",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/clipd.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/tiaanduplessis/clipd.git"

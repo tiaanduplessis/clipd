@@ -1,0 +1,22 @@
+{
+  "name": "clipd",
+  "description": "Puny copy to clipboard library",
+  "main": "lib/clipd.js",
+  "authors": [
+    "Tiaan du Plessis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "clipboard",
+    "copy",
+    "clipd"
+  ],
+  "homepage": "https://github.com/tiaanduplessis/clipd",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

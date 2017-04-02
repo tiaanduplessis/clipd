@@ -72,11 +72,27 @@ A puny 721 byte(gzipped & minified) copy to clipboard library. For [modern brows
 
 ## Install
 
+With cdn:
+
+```html
+<script src="https://unpkg.com/clipd/lib/clipd.min.js"></script>
+<!-- Or -->
+<script src="https://rawgit.com/tiaanduplessis/clipd/master/lib/clipd.min.js"></script>
+```
+
+With Bower:
+
+```sh
+$ bower install clipd
+```
+
+With npm:
+
 ```sh
 $ npm install --save clipd
 ```
 
-Or
+With yarn:
 
 ```sh
 $ yarn add clipd
