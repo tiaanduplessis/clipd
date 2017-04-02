@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>clipd example</title>
+
+		<style>
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #222;
+				font-family: monospace;
+			}
+
+			.clipd {
+				font-size: 4rem;
+				color: #fff;
+				text-decoration: none;
+				text-align: center;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<a class="clipd" href="#">Copy me to your clipboard!</a>
+	</body>
+	<script src="../lib/clipd.js"></script>
+	<script>
+
+		// Example usage
+		clipd('.clipd', {callback: (result) => result && alert('Copied!')})
+
+	</script>
+</html>
