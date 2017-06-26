@@ -119,7 +119,7 @@ Current available options:
 
 ## Example
 
-Check out the [docs directory]('docs/index.html').
+Check out the [demo](https://tiaanduplessis.github.io/clipd/).
 
 ## Contribute
 
