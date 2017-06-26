@@ -1,6 +1,6 @@
 {
   "name": "clipd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Puny copy to clipboard library",
   "license": "MIT",
   "main": "dist/clipd.js",
