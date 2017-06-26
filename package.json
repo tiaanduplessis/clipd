@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Puny copy to clipboard library",
   "license": "MIT",
-  "main": "lib/clipd.js",
+  "main": "dist/clipd.js",
+  "browser": "dist/clipd.min.js",
+  "jsnext:main": "dist/clipd.es.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/tiaanduplessis/clipd.git"
@@ -16,17 +18,15 @@
     "url": "tiaanduplessis.co.za"
   },
   "scripts": {
-    "start": "npm run build; npm run build:min",
-    "build": "webpack",
-    "build:min": "WEBPACK_ENV=production webpack -p",
-    "dev": "webpack --progress --colors --watch",
-    "pretest": "npm run lint",
-    "test": "jest src/",
-    "test:watch": "jest src/ --watch",
-    "lint": "standard src/",
+    "test": "jest",
+    "lint": "prettier-standard 'src/**/*.js'",
     "lint:fix": "npm run lint -- --fix",
-    "coverage": "jest src/ --coverage",
-    "precommit": "npm test"
+    "build": "bili --format es --format umd --compress",
+    "start": "npm run test",
+    "pretest": "npm run lint:fix",
+    "precommit": "npm test",
+    "prepublish": "npm run build",
+    "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push --tags && npm publish"
   },
   "keywords": [
     "clipboard",
@@ -35,27 +35,17 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.23.1",
-    "babel-jest": "^19.0.0",
-    "babel-loader": "^6.4.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.22.0",
-    "husky": "^0.13.2",
-    "jest": "^19.0.2",
-    "standard": "^9.0.1",
-    "webpack": "^2.2.1"
+    "babel-preset-env": "~1.5.2",
+    "bili": "~0.16.0-rc.2",
+    "husky": "~0.14.1",
+    "jest": "~20.0.4",
+    "prettier-standard": "~5.1.0"
   },
   "babel": {
     "presets": [
-      "es2015"
-    ],
-    "plugins": [
-      "babel-plugin-add-module-exports"
-    ]
-  },
-  "standard": {
-    "ignore": [
-      "lib/**"
+      [
+        "env"
+      ]
     ]
   }
 }

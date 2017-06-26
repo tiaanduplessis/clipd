@@ -1,6 +1,6 @@
 <h1 align="center">📎 clipd</h1>
 <div align="center">
-  <strong>Puny 721 byte copy to clipboard library</strong>
+  <strong>Puny 466 byte copy to clipboard library</strong>
 </div>
 <br>
 <div align="center">
@@ -16,23 +16,11 @@
   <a href="https://travis-ci.org/tiaanduplessis/clipd">
     <img src="https://img.shields.io/travis/tiaanduplessis/clipd.svg?style=flat-square" alt="Travis Build" />
   </a>
-  <a href="https://github.com/RichardLitt/standard-readme)">
-    <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme" />
-  </a>
-  <a href="https://badge.fury.io/gh/tiaanduplessis%2Fclipd">
-    <img src="https://badge.fury.io/gh/tiaanduplessis%2Fclipd.svg?style=flat-square" alt="GitHub version" />
-  </a>
-  <a href="https://dependencyci.com/github/tiaanduplessis/clipd">
-    <img src="https://dependencyci.com/github/tiaanduplessis/clipd/badge?style=flat-square" alt="Dependency CI" />
-  </a>
   <a href="https://github.com/tiaanduplessis/clipd/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/clipd.svg?style=flat-square" alt="License" />
   </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
-  </a>
-  <a href="https://www.paypal.me/tiaanduplessis/1">
-    <img src="https://img.shields.io/badge/$-support-green.svg?style=flat-square" alt="Donate" />
   </a>
 </div>
 <br>
@@ -67,17 +55,16 @@
 
 ## About
 
-A puny 721 byte(gzipped & minified) copy to clipboard library. For [modern browsers](https://www.microsoft.com/en-za/download/internet-explorer.aspx).
-
+A puny 466 byte(gzipped & minified) copy to clipboard library. For [modern browsers](https://www.microsoft.com/en-za/download/internet-explorer.aspx).
 
 ## Install
 
 With cdn:
 
 ```html
-<script src="https://unpkg.com/clipd/lib/clipd.min.js"></script>
+<script src="https://unpkg.com/clipd/dist/clipd.min.js"></script>
 <!-- Or -->
-<script src="https://rawgit.com/tiaanduplessis/clipd/master/lib/clipd.min.js"></script>
+<script src="https://rawgit.com/tiaanduplessis/clipd/master/dist/clipd.min.js"></script>
 ```
 
 With Bower:
@@ -132,13 +119,11 @@ Current available options:
 
 ## Example
 
-Check out the [example directory]('example/example.html').
+Check out the [docs directory]('docs/index.html').
 
 ## Contribute
 
 Contributions are welcome. Please open up an issue or create PR if you would like to help out.
-
-Note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 
