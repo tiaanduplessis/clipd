@@ -1,6 +1,6 @@
 <h1 align="center">📎 clipd</h1>
 <div align="center">
-  <strong>Puny 466 byte copy to clipboard library</strong>
+  <strong>Puny < 0.5kb copy to clipboard library</strong>
 </div>
 <br>
 <div align="center">
@@ -55,7 +55,7 @@
 
 ## About
 
-A puny 466 byte(gzipped & minified) copy to clipboard library. For [modern browsers](https://www.microsoft.com/en-za/download/internet-explorer.aspx).
+A puny < 0.5kb (gzipped & minified) copy to clipboard library. For [modern browsers](https://www.microsoft.com/en-za/download/internet-explorer.aspx).
 
 ## Install
 
