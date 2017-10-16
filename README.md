@@ -55,6 +55,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/clipd.svg)](https://greenkeeper.io/)
+
 A puny < 0.5kb (gzipped & minified) copy to clipboard library. For [modern browsers](https://www.microsoft.com/en-za/download/internet-explorer.aspx).
 
 ## Install
