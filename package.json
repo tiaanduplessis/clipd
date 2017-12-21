@@ -39,7 +39,7 @@
     "bili": "~0.19.0",
     "husky": "~0.14.1",
     "jest": "~22.0.0",
-    "prettier-standard": "~7.0.1"
+    "prettier-standard": "~8.0.0"
   },
   "babel": {
     "presets": [
