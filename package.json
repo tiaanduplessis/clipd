@@ -36,7 +36,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-preset-env": "~1.6.0",
-    "bili": "~3.1.0",
+    "bili": "~4.7.2",
     "husky": "~0.14.1",
     "jest": "~22.1.2",
     "prettier-standard": "~8.0.0"
